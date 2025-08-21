@@ -4,6 +4,14 @@ class HomeController extends GetxController {
   //TODO: Implement HomeController
 
   final count = 0.obs;
+
+  get nameController => null;
+
+  get selectedCourses => null;
+
+  get formattedDate => null;
+
+  get gender => null;
   @override
   void onInit() {
     super.onInit();
@@ -20,4 +28,6 @@ class HomeController extends GetxController {
   }
 
   void increment() => count.value++;
+
+  void clearForm() {}
 }
