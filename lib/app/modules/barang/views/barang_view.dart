@@ -52,7 +52,7 @@ class BarangView extends GetView<BarangController> {
                   controller.calculator();
                   Get.to(() => OutputPage());
                 },
-                child: const Text("Lihat Hasil"),
+                child: const Text("Lihat barang pembelian"),
               ),
             ],
           ),
